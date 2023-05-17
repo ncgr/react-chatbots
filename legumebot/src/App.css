@@ -1,0 +1,93 @@
+.App {
+    padding: 10px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 45px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.question-form {
+    margin: 0px auto;
+    padding: 10px;
+    width: fit-content;
+    height: 75px;
+    font-weight: bold;
+}
+
+textarea.question {
+    width: 600px;
+    height: 48px;
+    background-color: lightgray;
+}
+
+button.submit-button {
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button.reset-button {
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.textarea-box {
+    float: left;
+}
+
+.select-box {
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.atom {
+    margin: auto;
+}
+
+.submit-button-box {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.question-answer {
+    padding: 40px;
+}
+
+.question-box {
+    background-color: lightgray;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.answer-box {
+    background-color: lightgray;
+    border: 1px solid gray;
+    padding: 10px;
+}
