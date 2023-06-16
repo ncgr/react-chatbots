@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-		<h1 className="App-header">Legumebot! (Experimental OpenAI chatbot on { process.env.REACT_APP_OPENAI_MODEL })</h1>
+		<h1 className="App-header">Legumebot! (experimental OpenAI chatbot on { process.env.REACT_APP_OPENAI_MODEL })</h1>
               <p className="App-intro">
                 This is an <b>experimental</b> chatbot for answering questions about legume genera, with content from PubMed and PubAg publication abstracts.
                 I built the Pinecone vector database from PubMed/PubAg abstracts that contain a legume genus and species name.
@@ -16,7 +16,7 @@ class App extends Component {
                 The selectors control Pinecone and ChatGPT parameters:
               </p>
               <ul>
-                <li><b>Top K</b> tells Pinecone to return (at most) the top K matching abstracts.</li>
+                <li><b>Top K</b> tells Pinecone to return the top K matching abstracts.</li>
                 <li><b>Temperature</b> constrains the OpenAI language model's response: lower temperature is more constrained and tied to the provided abstracts.</li>
                 <li><b>Frequency/Presence penalties</b> reduce the repetitiveness of the response.</li>
               </ul>
