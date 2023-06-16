@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-              <h1 className="App-header">Legumebot! (Experimental OpenAI chatbot on GPT-3.5)</h1>
+		<h1 className="App-header">Legumebot! (Experimental OpenAI chatbot on { process.env.REACT_APP_OPENAI_MODEL })</h1>
               <p className="App-intro">
                 This is an <b>experimental</b> chatbot for answering questions about legume genera, with content from PubMed and PubAg publication abstracts.
                 I built the Pinecone vector database from PubMed/PubAg abstracts that contain a legume genus and species name.
