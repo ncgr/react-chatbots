@@ -33,9 +33,9 @@ class App extends Component {
                             <li><b>Frequency/Presence penalties</b> reduce the repetitiveness of the response.</li>
                             </ul>
                             <p>
-                                The response may be truncated due to OpenAi limits. If so, you'll see Finish reason: length, or OpenAi may just tell you the content length was too large.
-                                The Prompt tokens are the size of the abstracts sent to OpenAI plus your question. The Completion tokens are the size of the response.
-                                The Total tokens are limited by the current OpenAi model to 4,097.
+				The response may be truncated due to OpenAi limits. If so, you'll see Finish reason: length, or OpenAi may just tell you the content length was too large.
+				The Prompt tokens are the size of the abstracts sent to OpenAI plus your question. The Completion tokens are the size of the response.
+				The Total tokens are limited by the { process.env.REACT_APP_OPENAI_MODEL } model to { process.env.REACT_APP_OPENAI_MODEL_TOKENS }.
                             </p>
                         <p>
                             <i>If your prompt is too large or the response is truncated, try reducing Top K so there are fewer abstracts and therefore prompt tokens.</i>
