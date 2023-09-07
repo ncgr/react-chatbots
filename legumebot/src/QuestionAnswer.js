@@ -97,54 +97,59 @@ export function QuestionAnswer() {
                   <option key={"k10"} value="10">10</option>
                   <option key={"k15"} value="15">15</option>
                   <option key={"k20"} value="20">20</option>
-	          <option key={"k25"} value="50">25</option>
+	          <option key={"k25"} value="25">25</option>
+	          <option key={"k30"} value="30">30</option>
+	          <option key={"k35"} value="35">35</option>
+	          <option key={"k40"} value="40">40</option>
+	          <option key={"k45"} value="45">45</option>
+	          <option key={"k50"} value="50">50</option>
                 </select>
               </div>
               <div className="select-box">
                 <label>Temperature</label><br/>
                 <select className="" name="temperature" value={temperature}
                         onChange={e => handleTemperatureSelection(e)}>
-                  <option key={"t1"} value="0.0">0.0</option>
-                  <option key={"t2"} value="0.2">0.2</option>
-                  <option key={"t3"} value="0.4">0.4</option>
-                  <option key={"t4"} value="0.6">0.6</option>
-                  <option key={"t5"} value="0.8">0.8</option>
-                  <option key={"t6"} value="1.0">1.0</option>
-                  <option key={"t7"} value="1.2">1.2</option>
-                  <option key={"t8"} value="1.4">1.4</option>
-                  <option key={"t9"} value="1.6">1.6</option>
-                  <option key={"t10"} value="1.8">1.8</option>
-                  <option key={"t11"} value="2.0">2.0</option>
+                  <option key={"t00"} value="0.0">0.0</option>
+                  <option key={"t02"} value="0.2">0.2</option>
+                  <option key={"t04"} value="0.4">0.4</option>
+                  <option key={"t06"} value="0.6">0.6</option>
+                  <option key={"t08"} value="0.8">0.8</option>
+                  <option key={"t10"} value="1.0">1.0</option>
+                  <option key={"t12"} value="1.2">1.2</option>
+                  <option key={"t14"} value="1.4">1.4</option>
+                  <option key={"t16"} value="1.6">1.6</option>
+                  <option key={"t18"} value="1.8">1.8</option>
+                  <option key={"t20"} value="2.0">2.0</option>
                 </select>
               </div>
               <div className="select-box">
                 <label>Frequency penalty</label><br/>
                 <select className="" name="frequencyPenalty" value={frequencyPenalty}
                         onChange={e => handleFrequencyPenaltySelection(e)}>
-                  <option key={"f1"} value="-2.0">-2.0</option>
-                  <option key={"f2"} value="-1.5">-1.5</option>
-                  <option key={"f3"} value="-1.0">-1.0</option>
-                  <option key={"f4"} value="-0.5">-0.5</option>
-                  <option key={"f5"} value="0.0">0.0</option>
-                  <option key={"f6"} value="0.5">0.5</option>
-                  <option key={"f7"} value="1.0">1.0</option>
-                  <option key={"f8"} value="1.5">1.5</option>
-                  <option key={"f9"} value="2.0">2.0</option>
+                  <option key={"fm20"} value="-2.0">-2.0</option>
+                  <option key={"fm15"} value="-1.5">-1.5</option>
+                  <option key={"fm10"} value="-1.0">-1.0</option>
+                  <option key={"fm05"} value="-0.5">-0.5</option>
+                  <option key={"fp00"} value="0.0">0.0</option>
+                  <option key={"fp05"} value="0.5">0.5</option>
+                  <option key={"fp10"} value="1.0">1.0</option>
+                  <option key={"fp15"} value="1.5">1.5</option>
+                  <option key={"fp20"} value="2.0">2.0</option>
                 </select>
               </div>
               <div className="select-box">
                 <label>Presence penalty</label><br/>
                 <select className="" name="presencePenalty" value={presencePenalty}
                         onChange={e => handlePresencePenaltySelection(e)}>
-                  <option key={"f1"} value="-2.0">-2.0</option>
-                  <option key={"f2"} value="-1.5">-1.5</option>
-                  <option key={"f3"} value="-1.0">-1.0</option>
-                  <option key={"f4"} value="-0.5">-0.5</option>
-                  <option key={"f5"} value="0.0">0.0</option>
-                  <option key={"f6"} value="0.5">0.5</option>
-                  <option key={"f7"} value="1.0">1.0</option>
-                  <option key={"f8"} value="1.5">1.5</option>
-                  <option key={"f9"} value="2.0">2.0</option>
+                  <option key={"fm20"} value="-2.0">-2.0</option>
+                  <option key={"fm15"} value="-1.5">-1.5</option>
+                  <option key={"fm10"} value="-1.0">-1.0</option>
+                  <option key={"fm05"} value="-0.5">-0.5</option>
+                  <option key={"fp00"} value="0.0">0.0</option>
+                  <option key={"fp05"} value="0.5">0.5</option>
+                  <option key={"fp10"} value="1.0">1.0</option>
+                  <option key={"fp15"} value="1.5">1.5</option>
+                  <option key={"fp20"} value="2.0">2.0</option>
                 </select>
               </div>
               <div className="clear textarea-box">
