@@ -20,7 +20,7 @@ class App extends Component {
 		    <h1>Legumebot</h1>
                     <h2>Experimental chatbot on OpenAI { process.env.REACT_APP_OPENAI_MODEL }</h2>
                     <p className="app-intro">
-                        This is an <b>experimental</b> chatbot for answering questions about legume genera, with content from PubMed and PubAg publication abstracts.
+                        This is an <b>experimental</b> chatbot for answering questions about legume species, with content from PubMed and PubAg publication abstracts.
                         We built a Pinecone vector database of embedding vectors from PubMed and PubAg abstracts that contain a legume genus and species name. Those abstracts are used
                         by OpenAI { process.env.REACT_APP_OPENAI_MODEL } to construct a response and list the relevant publications.
                     </p>
