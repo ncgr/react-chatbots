@@ -8,13 +8,7 @@ class App extends Component {
         return (
             <div className="App">
                 <div className="header">
-                    <div className="logo">
-                        <a href="https://legumeinfo.org/"><img src="https://www.legumeinfo.org/assets/img/lis-logo-small.png" alt="LIS - Legume Information System"/></a>
-                    </div>
-                    <div className="lis-info">
-                        <div className="title">LIS - Legume Information System</div>
-                        <div className="description">Information about legume traits for crop improvement</div>
-                    </div>
+		    <img className="logo" src="https://www.ncgr.org/static/img/logo_dark.png"/>
                 </div>
                 <div className="content">
 		    <h1>Legumebot</h1>

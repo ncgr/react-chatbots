@@ -11,15 +11,14 @@ h2 {
 }
 
 .header {
-    min-height: 80px;
-    background-color: #87a96b;
-    padding-left: 36px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .logo {
-    float:left;
-    margin-right: 15px;
-    padding-top: 15px;
+    width: auto;
+    max-height: 50px;
 }
 
 .lis-info {
